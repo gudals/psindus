@@ -1,0 +1,138 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, 'dotum’,’돋움', BlinkMacSystemFont, 'Apple SD Gothic Neo', Pretendard, Roboto, 'Noto Sans KR', 'Segoe UI', 'Malgun Gothic', sans-serif;
+  word-break: keep-all;
+  line-height: 1.5;
+  
+}
+
+.container {
+  padding: 60px 20px;
+}
+
+ul {
+  overflow: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.icon-jumbo {
+  width: 42px;
+  height: 42px;
+}
+
+.icon-large {
+  width: 24px;
+  height: 24px;
+}
+
+.icon-medium {
+  width: 18px;
+  height: 18px;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+
+.title {
+  border-left: 5px solid #074298;
+  line-height: 1;
+  padding-left: 8px;
+  margin-bottom: 20px;
+}
+
+table {
+  border-collapse : collapse;
+  border-top: 1.5px solid black;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+
+table tr {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+table td {
+  padding: 15px;
+}
+
+
+.badge {
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+.badge-green {
+  background-color: #92B55A;
+  color: #fff;
+}
+
+.badge-red {
+  background-color: #CE5959;
+  color: #fff;
+}
+
+.badge-black {
+  background-color: #343434;
+  color: #fff;
+}
+
+.border-right {
+  border-right: 1px solid #e5e5e5;
+}
+
+.tosted {
+  background-color: #60718A;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.tosted .toasted-text {
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.tosted .icon-large {
+  float: left;
+  padding-right: 10px;
+}
+
+.color-main {
+  color: #074298;
+}
+
+.active {
+  color: #074298 !important;
+  border-bottom: 4px solid #074298;
+}
+
+.color-grey {
+  color: #9FA8B4;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

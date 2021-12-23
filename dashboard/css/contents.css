@@ -1,0 +1,153 @@
+/* 현장정보 */
+.onsite-info {
+  float: left;
+  width: 28%;
+  margin-right: 4%;
+}
+
+.onsite-info .contents {
+  border-radius: 10px;
+  height: 800px;
+  overflow: hidden;
+  background-image: url('../images/building1.png');
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.onsite-info .contents .dim {
+  background-color: black;
+  padding: 50px 30px;
+  color: #fff;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.onsite-info .contents .dim .dim-text {
+  float: left;
+}
+
+
+.onsite-info .contents .dim .icon-jumbo {
+  float: right;
+  margin: 8px 0;
+}
+
+/* 발전형황 */
+.development-status {
+  margin-right: 4%;
+  width: 20%;
+  float: left;
+  height: 400px;
+  margin-bottom: 50px;
+}
+
+.development-status table td:first-child {
+  background-color: #ECF0F4;
+  text-align: center;
+  width: 58%;
+}
+
+.development-status table td:last-child {
+  text-align: right;
+}
+
+/* 기상정보 */
+.weather-info {
+  float: left;
+  width: 20%;
+  height: 400px;
+  margin-bottom: 50px;
+  margin-right: 4%;
+}
+
+.weather-info table td:first-child {
+  background-color: #ECF0F4;
+  text-align: center;
+  width: 45%;
+}
+
+.weather-info table td:last-child {
+  text-align: right;
+}
+
+/* 환경정보 */
+.environment-info {
+  width: 20%;
+  float: left;
+}
+
+.environment-info table td:first-child {
+  background-color: #ECF0F4;
+  text-align: center;
+  width: 45%;
+}
+
+.environment-info table td:last-child {
+  text-align: right;
+}
+
+
+/* 시간별 발전량 */
+.hourly-power-generation {
+  margin-right: 4%;
+  float: left;
+  width: 31%;
+  height: 400px;
+}
+
+.hourly-power-generation .contents {
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 350px;
+}
+
+
+/* 발전상태 */
+.dev-status {
+  float: left;
+  width: 31%;
+  height: 400px
+}
+
+.dev-status .contents {
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  padding: 30px;
+  border-radius: 10px;
+  height: 350px;
+}
+
+.dev-status .illustrator {
+  width: 250px;
+  margin: 30px auto;
+}
+
+.dev-status .badge {
+  margin: 0 auto;
+  width: 70px;
+}
+
+/* 실시간 발전정보 */
+.realtime-power-info {
+  margin-top: 100px;
+  display: inline-block;
+  width: 100%;
+}
+
+.realtime-power-info table thead {
+  background-color: #ECF0F4;
+  width: 100%;
+}
+
+@media (max-width: 458px) {
+  .development-status table td:first-child {
+    background-color: #ECF0F4;
+    text-align: center;
+    width: 65%;
+  }
+}
