@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +9,9 @@
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/contents.css">
-  
+
 </head>
+
 <body>
   <header id="header">
     <div class="logo">
@@ -79,7 +81,7 @@
     </nav>
     <div class="login">
       <ul>
-        <li class="color-grey">2021-12-13  14:15:29</li>
+        <li class="color-grey">2021-12-13 14:15:29</li>
         <li>
           <a href="#">
             <strong class="color-main">Admin</strong>님
@@ -105,6 +107,7 @@
     <section class="onsite-info cursor-pointer">
       <h2 class="title">현장정보</h2>
       <div class="contents">
+        <img src="./images/building1.png" alt="현장정보 사진" />
         <div class="dim">
           <div class="dim-text">
             <h2>풍성인더스 복사 옥상</h2>
@@ -113,6 +116,7 @@
           <div class="icon-jumbo">
             <img src="./images/arrow-right.svg" />
           </div>
+          <div class="dim-bg"></div>
         </div>
       </div>
     </section>
@@ -302,7 +306,7 @@
             <td>7,829.00</td>
             <td>-</td>
             <td>-</td>
-            
+
             <td>7,829.00</td>
             <td>7,829.00</td>
             <td>7,829.00</td>
@@ -317,7 +321,7 @@
             <td>0.00</td>
             <td>-</td>
             <td>-</td>
-            
+
             <td>0.00</td>
             <td>0.00</td>
             <td>0.00</td>
@@ -335,11 +339,12 @@
 
     menu_item.forEach((item, idx) => {
       const atag = item.querySelector('a').getAttribute('href')
-      
-      if(atag == location_href) {
+
+      if (atag == location_href) {
         item.querySelector('a').classList.add('active')
       }
     })
   </script>
 </body>
+
 </html>

@@ -15,24 +15,35 @@
   background-size: cover;
 }
 
-.onsite-info .contents .dim {
+.onsite-info .contents .dim-bg {
   background-color: black;
-  padding: 50px 30px;
+  padding: 70px 30px;
   color: #fff;
   overflow: hidden;
   position: absolute;
   bottom: 0;
+  left: 0;
   box-sizing: border-box;
   width: 100%;
+  opacity: 0.7;
 }
 
 .onsite-info .contents .dim .dim-text {
   float: left;
+  z-index: 999;
+  position: absolute;
+  left: 20px;
+  bottom: 40px;
+  color: #fff;
 }
 
 .onsite-info .contents .dim .icon-jumbo {
   float: right;
   margin: 8px 0;
+  position: absolute;
+  right: 20px;
+  bottom: 40px;
+  z-index: 999;
 }
 
 /* 발전형황 */
@@ -124,5 +135,3 @@
   background-color: #ECF0F4;
   width: 100%;
 }
-
-

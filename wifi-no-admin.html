@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +9,9 @@
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/wifi-no.css">
-  
+
 </head>
+
 <body>
   <header id="header">
     <div class="logo">
@@ -79,7 +81,7 @@
     </nav>
     <div class="login">
       <ul>
-        <li class="color-grey">2021-12-13  14:15:29</li>
+        <li class="color-grey">2021-12-13 14:15:29</li>
         <li>
           <a href="#">
             <strong class="color-main">Admin</strong>님
@@ -95,7 +97,8 @@
   <div class="container">
     <section class="onsite-info cursor-pointer">
       <h2 class="title">현장정보</h2>
-      <div class="contents">
+      <<div class="contents">
+        <img src="./images/building1.png" alt="현장정보 사진" />
         <div class="dim">
           <div class="dim-text">
             <h2>풍성인더스 복사 옥상</h2>
@@ -104,179 +107,180 @@
           <div class="icon-jumbo">
             <img src="./images/arrow-right.svg" />
           </div>
+          <div class="dim-bg"></div>
         </div>
-      </div>
-    </section>
-    <section class="development-status">
-      <h2 class="title">발전현황</h2>
-      <div class="contents">
-        <table>
-          <tr>
-            <td>현재 발전량</td>
-            <td>
-              <strong>0</strong>
-              <span>KW</span>
-            </td>
-          </tr>
-          <tr>
-            <td>금일 발전량</td>
-            <td>
-              <strong>0</strong>
-              <span>KWh</span>
-            </td>
-          </tr>
-          <tr>
-            <td>금월 발전량</td>
-            <td>
-              <strong>0</strong>
-              <span>KWh</span>
-            </td>
-          </tr>
-          <tr>
-            <td>누적 발전량</td>
-            <td>
-              <strong>0</strong>
-              <span>MWh</span>
-            </td>
-          </tr>
-          <tr>
-            <td>CO2 저감량</td>
-            <td>
-              <strong>0</strong>
-              <span>Ton</span>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </section>
-    <section class="weather-info">
-      <h2 class="title">기상정보</h2>
-      <div class="contents">
-        <table>
-          <tr>
-            <td>경사일사량</td>
-            <td>
-              <strong>0</strong>
-              <span>W/m²</span>
-            </td>
-          </tr>
-          <tr>
-            <td>수평일사량</td>
-            <td>
-              <strong>0</strong>
-              <span>W/m²</span>
-            </td>
-          </tr>
-          <tr>
-            <td>모듈 온도</td>
-            <td>
-              <strong>0</strong>
-              <span>℃</span>
-            </td>
-          </tr>
-          <tr>
-            <td>외기 온도</td>
-            <td>
-              <strong>0</strong>
-              <span>℃</span>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </section>
-    <section class="hourly-power-generation">
-      <h2 class="title">시간별 발전량</h2>
-      <div class="contents">
-        <img src="./images/graph.png" />
-      </div>
-    </section>
-    <section class="dev-status">
-      <h2 class="title">발전상태</h2>
-      <div class="contents">
-        <div class="illustrator">
-          <img src="./images/developing.png" alt="발전중" />
-          <!-- <img src="./images/dev-issue.png" alt="발전이상" />
-          <img src="./images/dev-stop.png" alt="발전정지" /> -->
-        </div>
-        <div class="badge badge-green">발전중</div>
-        <!-- <div class="badge badge-black">발전이상</div>
-        <div class="badge badge-red">발전정지</div> -->
-      </div>
-    </section>
-
-    <section class="realtime-power-info">
-      <h2 class="title">실시간 발전정보</h2>
+  </div>
+  </section>
+  <section class="development-status">
+    <h2 class="title">발전현황</h2>
+    <div class="contents">
       <table>
-        <thead>
-          <tr>
-            <td colspan="7" class="border-right">인버터 (AC)</td>
-            <td colspan="5">태양전지 (DC)</td>
-          </tr>
-          <tr>
-            <td>장비번호</td>
-            <td>전압</td>
-            <td>전류</td>
-            <td>유효전력</td>
-            <td>누적발전량</td>
-            <td>내부온도</td>
-            <td class="border-right">상태</td>
-
-            <td>전압</td>
-            <td>전류</td>
-            <td>유효전력</td>
-            <td>내부온도</td>
-            <td>상태</td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>인버터 #1</td>
-            <td>381.00</td>
-            <td>11.50</td>
-            <td>8.40</td>
-            <td>5,835.00</td>
-            <td>-</td>
-            <td>-</td>
-
-            <td>5,835.00</td>
-            <td>5,835.00</td>
-            <td>5,835.00</td>
-            <td>-</td>
-            <td>-</td>
-          </tr>
-          <tr>
-            <td>인버터 #3</td>
-            <td>383.00</td>
-            <td>11.70</td>
-            <td>8.90</td>
-            <td>7,829.00</td>
-            <td>-</td>
-            <td>-</td>
-            
-            <td>7,829.00</td>
-            <td>7,829.00</td>
-            <td>7,829.00</td>
-            <td>-</td>
-            <td>-</td>
-          </tr>
-          <tr>
-            <td>인버터 #7</td>
-            <td>373.22</td>
-            <td>3.10</td>
-            <td>2.04</td>
-            <td>0.00</td>
-            <td>-</td>
-            <td>-</td>
-            
-            <td>0.00</td>
-            <td>0.00</td>
-            <td>0.00</td>
-            <td>-</td>
-            <td>-</td>
-          </tr>
-        </tbody>
+        <tr>
+          <td>현재 발전량</td>
+          <td>
+            <strong>0</strong>
+            <span>KW</span>
+          </td>
+        </tr>
+        <tr>
+          <td>금일 발전량</td>
+          <td>
+            <strong>0</strong>
+            <span>KWh</span>
+          </td>
+        </tr>
+        <tr>
+          <td>금월 발전량</td>
+          <td>
+            <strong>0</strong>
+            <span>KWh</span>
+          </td>
+        </tr>
+        <tr>
+          <td>누적 발전량</td>
+          <td>
+            <strong>0</strong>
+            <span>MWh</span>
+          </td>
+        </tr>
+        <tr>
+          <td>CO2 저감량</td>
+          <td>
+            <strong>0</strong>
+            <span>Ton</span>
+          </td>
+        </tr>
       </table>
-    </section>
+    </div>
+  </section>
+  <section class="weather-info">
+    <h2 class="title">기상정보</h2>
+    <div class="contents">
+      <table>
+        <tr>
+          <td>경사일사량</td>
+          <td>
+            <strong>0</strong>
+            <span>W/m²</span>
+          </td>
+        </tr>
+        <tr>
+          <td>수평일사량</td>
+          <td>
+            <strong>0</strong>
+            <span>W/m²</span>
+          </td>
+        </tr>
+        <tr>
+          <td>모듈 온도</td>
+          <td>
+            <strong>0</strong>
+            <span>℃</span>
+          </td>
+        </tr>
+        <tr>
+          <td>외기 온도</td>
+          <td>
+            <strong>0</strong>
+            <span>℃</span>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  <section class="hourly-power-generation">
+    <h2 class="title">시간별 발전량</h2>
+    <div class="contents">
+      <img src="./images/graph.png" />
+    </div>
+  </section>
+  <section class="dev-status">
+    <h2 class="title">발전상태</h2>
+    <div class="contents">
+      <div class="illustrator">
+        <img src="./images/developing.png" alt="발전중" />
+        <!-- <img src="./images/dev-issue.png" alt="발전이상" />
+          <img src="./images/dev-stop.png" alt="발전정지" /> -->
+      </div>
+      <div class="badge badge-green">발전중</div>
+      <!-- <div class="badge badge-black">발전이상</div>
+        <div class="badge badge-red">발전정지</div> -->
+    </div>
+  </section>
+
+  <section class="realtime-power-info">
+    <h2 class="title">실시간 발전정보</h2>
+    <table>
+      <thead>
+        <tr>
+          <td colspan="7" class="border-right">인버터 (AC)</td>
+          <td colspan="5">태양전지 (DC)</td>
+        </tr>
+        <tr>
+          <td>장비번호</td>
+          <td>전압</td>
+          <td>전류</td>
+          <td>유효전력</td>
+          <td>누적발전량</td>
+          <td>내부온도</td>
+          <td class="border-right">상태</td>
+
+          <td>전압</td>
+          <td>전류</td>
+          <td>유효전력</td>
+          <td>내부온도</td>
+          <td>상태</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>인버터 #1</td>
+          <td>381.00</td>
+          <td>11.50</td>
+          <td>8.40</td>
+          <td>5,835.00</td>
+          <td>-</td>
+          <td>-</td>
+
+          <td>5,835.00</td>
+          <td>5,835.00</td>
+          <td>5,835.00</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>인버터 #3</td>
+          <td>383.00</td>
+          <td>11.70</td>
+          <td>8.90</td>
+          <td>7,829.00</td>
+          <td>-</td>
+          <td>-</td>
+
+          <td>7,829.00</td>
+          <td>7,829.00</td>
+          <td>7,829.00</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>인버터 #7</td>
+          <td>373.22</td>
+          <td>3.10</td>
+          <td>2.04</td>
+          <td>0.00</td>
+          <td>-</td>
+          <td>-</td>
+
+          <td>0.00</td>
+          <td>0.00</td>
+          <td>0.00</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
   </div>
 
   <script>
@@ -285,11 +289,12 @@
 
     menu_item.forEach((item, idx) => {
       const atag = item.querySelector('a').getAttribute('href')
-      
-      if(atag == location_href) {
+
+      if (atag == location_href) {
         item.querySelector('a').classList.add('active')
       }
     })
   </script>
 </body>
+
 </html>
